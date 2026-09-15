@@ -73,12 +73,17 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
 		</dependency>
-		<!--solr dependency-->
+		<!--oauth2 dependencies-->
 		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-solr</artifactId>
-			<version>4.3.14</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
+		<!--solr dependency-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.data</groupId>-->
+<!--			<artifactId>spring-data-solr</artifactId>-->
+<!--			<version>4.3.14</version>-->
+<!--		</dependency>-->
 
 		<!-- Source: https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
 		<dependency>

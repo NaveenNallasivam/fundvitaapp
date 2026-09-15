@@ -35,7 +35,7 @@ public class StockDataController {
         try {
             logger.info("Received request to fetch stock data for code: {}", stockCode);
 
-            StockMetricsResult stockData = stockService.getStockByCode(stockCode);
+                StockMetricsResult stockData = stockService.getStockByCode(stockCode);
 
             if (stockData == null) {
                 logger.warn("Stock not found for code: {}", stockCode);

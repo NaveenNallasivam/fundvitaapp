@@ -2,13 +2,13 @@ package com.example.fundvita.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.solr.core.mapping.SolrDocument;
+//import org.springframework.data.solr.core.mapping.SolrDocument;
 
 import java.math.BigDecimal;
 
 @Setter
 @Getter
-@SolrDocument(collection = "stocks")
+//@SolrDocument(collection = "stocks")
 public class StockDto {
     // Getters and Setters
     private Long stockUidpk;
